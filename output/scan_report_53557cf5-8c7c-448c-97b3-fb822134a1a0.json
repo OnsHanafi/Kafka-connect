@@ -1,0 +1,66 @@
+[
+  {
+    "scan_id": "53557cf5-8c7c-448c-97b3-fb822134a1a0",
+    "file_path": "C:\\\\Projects\\\\Data\\\\Aiko_samples\\1-1.dcm",
+    "status": "flagged",
+    "reason": "Erreur lors de l'analyse avec recipe: 'DicomParser' object has no attribute 'actions'",
+    "scan_type": "dicom",
+    "timestamp": "2025-06-04T13:21:16.540754"
+  },
+  {
+    "scan_id": "53557cf5-8c7c-448c-97b3-fb822134a1a0",
+    "file_path": "C:\\\\Projects\\\\Data\\\\Aiko_samples\\1-2.dcm",
+    "status": "flagged",
+    "reason": "Erreur lors de l'analyse avec recipe: 'DicomParser' object has no attribute 'actions'",
+    "scan_type": "dicom",
+    "timestamp": "2025-06-04T13:21:16.559907"
+  },
+  {
+    "scan_id": "53557cf5-8c7c-448c-97b3-fb822134a1a0",
+    "file_path": "C:\\\\Projects\\\\Data\\\\Aiko_samples\\1-3.dcm",
+    "status": "flagged",
+    "reason": "Erreur lors de l'analyse avec recipe: 'DicomParser' object has no attribute 'actions'",
+    "scan_type": "dicom",
+    "timestamp": "2025-06-04T13:21:16.582245"
+  },
+  {
+    "scan_id": "53557cf5-8c7c-448c-97b3-fb822134a1a0",
+    "file_path": "C:\\\\Projects\\\\Data\\\\Aiko_samples\\1-4.dcm",
+    "status": "flagged",
+    "reason": "Erreur lors de l'analyse avec recipe: 'DicomParser' object has no attribute 'actions'",
+    "scan_type": "dicom",
+    "timestamp": "2025-06-04T13:21:16.599544"
+  },
+  {
+    "scan_id": "53557cf5-8c7c-448c-97b3-fb822134a1a0",
+    "file_path": "C:\\\\Projects\\\\Data\\\\Aiko_samples\\1-5.dcm",
+    "status": "flagged",
+    "reason": "Erreur lors de l'analyse avec recipe: 'DicomParser' object has no attribute 'actions'",
+    "scan_type": "dicom",
+    "timestamp": "2025-06-04T13:21:16.623240"
+  },
+  {
+    "scan_id": "53557cf5-8c7c-448c-97b3-fb822134a1a0",
+    "file_path": "C:\\\\Projects\\\\Data\\\\Aiko_samples\\1\\amal.pdf",
+    "status": "clean",
+    "reason": null,
+    "scan_type": "pdf",
+    "timestamp": "2025-06-04T13:21:16.742606"
+  },
+  {
+    "scan_id": "53557cf5-8c7c-448c-97b3-fb822134a1a0",
+    "file_path": "C:\\\\Projects\\\\Data\\\\Aiko_samples\\1\\amal2.pdf",
+    "status": "clean",
+    "reason": null,
+    "scan_type": "pdf",
+    "timestamp": "2025-06-04T13:21:16.897409"
+  },
+  {
+    "scan_id": "53557cf5-8c7c-448c-97b3-fb822134a1a0",
+    "file_path": "C:\\\\Projects\\\\Data\\\\Aiko_samples\\1\\de-identification of medical imaging data.pdf",
+    "status": "flagged",
+    "reason": "PII detected in PDF",
+    "scan_type": "pdf",
+    "timestamp": "2025-06-04T13:21:17.069422"
+  }
+]

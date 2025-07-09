@@ -1,0 +1,130 @@
+[
+  {
+    "scan_id": "c28a9d8d-3ada-4cf5-a71b-5b3f33603270",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1-1.dcm",
+    "status": "flagged",
+    "reason": "PHI tags found: PatientName ((0010, 0010)), PatientID ((0010, 0020)), PatientBirthDate ((0010, 0030)), PatientSex ((0010, 0040)), ReferringPhysicianName ((0008, 0090)), StudyDate ((0008, 0020)), StudyTime ((0008, 0030)), AccessionNumber ((0008, 0050)), SoftwareVersions ((0018, 1020)), BodyPartExamined ((0018, 0015)), StudyDescription ((0008, 1030)), SOPInstanceUID ((0008, 0018)), SeriesInstanceUID ((0020, 000e)), StudyInstanceUID ((0020, 000d))",
+    "scan_type": "dicom",
+    "timestamp": "2025-06-11T14:51:52.740840"
+  },
+  {
+    "scan_id": "c28a9d8d-3ada-4cf5-a71b-5b3f33603270",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1-1_cleaned.dcm",
+    "status": "flagged",
+    "reason": "PHI tags found: PatientName ((0010, 0010)), PatientID ((0010, 0020)), PatientBirthDate ((0010, 0030)), PatientSex ((0010, 0040)), ReferringPhysicianName ((0008, 0090)), StudyDate ((0008, 0020)), StudyTime ((0008, 0030)), AccessionNumber ((0008, 0050)), SoftwareVersions ((0018, 1020)), BodyPartExamined ((0018, 0015)), StudyDescription ((0008, 1030)), SOPInstanceUID ((0008, 0018)), SeriesInstanceUID ((0020, 000e)), StudyInstanceUID ((0020, 000d))",
+    "scan_type": "dicom",
+    "timestamp": "2025-06-11T14:51:52.744974"
+  },
+  {
+    "scan_id": "c28a9d8d-3ada-4cf5-a71b-5b3f33603270",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1-1_text_removed.dcm",
+    "status": "flagged",
+    "reason": "PHI tags found: PatientName ((0010, 0010)), PatientID ((0010, 0020)), PatientBirthDate ((0010, 0030)), PatientSex ((0010, 0040)), ReferringPhysicianName ((0008, 0090)), StudyDate ((0008, 0020)), StudyTime ((0008, 0030)), AccessionNumber ((0008, 0050)), SoftwareVersions ((0018, 1020)), BodyPartExamined ((0018, 0015)), StudyDescription ((0008, 1030)), SOPInstanceUID ((0008, 0018)), SeriesInstanceUID ((0020, 000e)), StudyInstanceUID ((0020, 000d))",
+    "scan_type": "dicom",
+    "timestamp": "2025-06-11T14:51:52.744974"
+  },
+  {
+    "scan_id": "c28a9d8d-3ada-4cf5-a71b-5b3f33603270",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1-1_text_removed.png",
+    "status": "clean",
+    "reason": null,
+    "scan_type": "txt",
+    "timestamp": "2025-06-11T14:51:52.786947"
+  },
+  {
+    "scan_id": "c28a9d8d-3ada-4cf5-a71b-5b3f33603270",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1-2.dcm",
+    "status": "flagged",
+    "reason": "PHI tags found: PatientName ((0010, 0010)), PatientID ((0010, 0020)), PatientBirthDate ((0010, 0030)), PatientSex ((0010, 0040)), ReferringPhysicianName ((0008, 0090)), StudyDate ((0008, 0020)), StudyTime ((0008, 0030)), AccessionNumber ((0008, 0050)), SoftwareVersions ((0018, 1020)), BodyPartExamined ((0018, 0015)), FrameOfReferenceUID ((0020, 0052)), SOPInstanceUID ((0008, 0018)), SeriesInstanceUID ((0020, 000e)), StudyInstanceUID ((0020, 000d))",
+    "scan_type": "dicom",
+    "timestamp": "2025-06-11T14:51:52.786947"
+  },
+  {
+    "scan_id": "c28a9d8d-3ada-4cf5-a71b-5b3f33603270",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1-2_text_removed.png",
+    "status": "clean",
+    "reason": null,
+    "scan_type": "txt",
+    "timestamp": "2025-06-11T14:51:52.865873"
+  },
+  {
+    "scan_id": "c28a9d8d-3ada-4cf5-a71b-5b3f33603270",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1-3.dcm",
+    "status": "flagged",
+    "reason": "PHI tags found: PatientName ((0010, 0010)), PatientID ((0010, 0020)), PatientBirthDate ((0010, 0030)), PatientSex ((0010, 0040)), ReferringPhysicianName ((0008, 0090)), StudyDate ((0008, 0020)), StudyTime ((0008, 0030)), AccessionNumber ((0008, 0050)), SoftwareVersions ((0018, 1020)), BodyPartExamined ((0018, 0015)), FrameOfReferenceUID ((0020, 0052)), SOPInstanceUID ((0008, 0018)), SeriesInstanceUID ((0020, 000e)), StudyInstanceUID ((0020, 000d))",
+    "scan_type": "dicom",
+    "timestamp": "2025-06-11T14:51:52.869361"
+  },
+  {
+    "scan_id": "c28a9d8d-3ada-4cf5-a71b-5b3f33603270",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1-3_text_removed.png",
+    "status": "clean",
+    "reason": null,
+    "scan_type": "txt",
+    "timestamp": "2025-06-11T14:51:52.940895"
+  },
+  {
+    "scan_id": "c28a9d8d-3ada-4cf5-a71b-5b3f33603270",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1-4.dcm",
+    "status": "flagged",
+    "reason": "PHI tags found: PatientName ((0010, 0010)), PatientID ((0010, 0020)), PatientBirthDate ((0010, 0030)), PatientSex ((0010, 0040)), ReferringPhysicianName ((0008, 0090)), StudyDate ((0008, 0020)), StudyTime ((0008, 0030)), AccessionNumber ((0008, 0050)), SoftwareVersions ((0018, 1020)), BodyPartExamined ((0018, 0015)), FrameOfReferenceUID ((0020, 0052)), SOPInstanceUID ((0008, 0018)), SeriesInstanceUID ((0020, 000e)), StudyInstanceUID ((0020, 000d))",
+    "scan_type": "dicom",
+    "timestamp": "2025-06-11T14:51:52.940895"
+  },
+  {
+    "scan_id": "c28a9d8d-3ada-4cf5-a71b-5b3f33603270",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1-4_text_removed.png",
+    "status": "clean",
+    "reason": null,
+    "scan_type": "txt",
+    "timestamp": "2025-06-11T14:51:53.022170"
+  },
+  {
+    "scan_id": "c28a9d8d-3ada-4cf5-a71b-5b3f33603270",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1-5.dcm",
+    "status": "flagged",
+    "reason": "PHI tags found: PatientName ((0010, 0010)), PatientID ((0010, 0020)), PatientBirthDate ((0010, 0030)), PatientSex ((0010, 0040)), ReferringPhysicianName ((0008, 0090)), StudyDate ((0008, 0020)), StudyTime ((0008, 0030)), AccessionNumber ((0008, 0050)), SoftwareVersions ((0018, 1020)), BodyPartExamined ((0018, 0015)), FrameOfReferenceUID ((0020, 0052)), SOPInstanceUID ((0008, 0018)), SeriesInstanceUID ((0020, 000e)), StudyInstanceUID ((0020, 000d))",
+    "scan_type": "dicom",
+    "timestamp": "2025-06-11T14:51:53.024685"
+  },
+  {
+    "scan_id": "c28a9d8d-3ada-4cf5-a71b-5b3f33603270",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1-5_text_removed.png",
+    "status": "clean",
+    "reason": null,
+    "scan_type": "txt",
+    "timestamp": "2025-06-11T14:51:53.094909"
+  },
+  {
+    "scan_id": "c28a9d8d-3ada-4cf5-a71b-5b3f33603270",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\test.png",
+    "status": "clean",
+    "reason": null,
+    "scan_type": "txt",
+    "timestamp": "2025-06-11T14:51:53.094909"
+  },
+  {
+    "scan_id": "c28a9d8d-3ada-4cf5-a71b-5b3f33603270",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1\\amal.pdf",
+    "status": "clean",
+    "reason": null,
+    "scan_type": "pdf",
+    "timestamp": "2025-06-11T14:51:53.204871"
+  },
+  {
+    "scan_id": "c28a9d8d-3ada-4cf5-a71b-5b3f33603270",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1\\amal2.pdf",
+    "status": "clean",
+    "reason": null,
+    "scan_type": "pdf",
+    "timestamp": "2025-06-11T14:51:53.350563"
+  },
+  {
+    "scan_id": "c28a9d8d-3ada-4cf5-a71b-5b3f33603270",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1\\de-identification of medical imaging data.pdf",
+    "status": "flagged",
+    "reason": "PII detected in PDF",
+    "scan_type": "pdf",
+    "timestamp": "2025-06-11T14:51:53.536375"
+  }
+]

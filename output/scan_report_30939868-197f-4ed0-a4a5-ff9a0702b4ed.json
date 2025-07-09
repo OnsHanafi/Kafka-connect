@@ -1,0 +1,130 @@
+[
+  {
+    "scan_id": "30939868-197f-4ed0-a4a5-ff9a0702b4ed",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1-1.dcm",
+    "status": "flagged",
+    "reason": "Text detected in pixel using OCR boxes",
+    "scan_type": "ocr-pixel",
+    "timestamp": "2025-06-12T10:59:19.958797"
+  },
+  {
+    "scan_id": "30939868-197f-4ed0-a4a5-ff9a0702b4ed",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1-1_cleaned.dcm",
+    "status": "flagged",
+    "reason": "Erreur OCR pixel: The length of the pixel data in the dataset (3766400 bytes) doesn't match the expected length (7532800 bytes). The dataset may be corrupted or there may be an issue with the pixel data handler.",
+    "scan_type": "ocr-pixel",
+    "timestamp": "2025-06-12T10:59:19.964119"
+  },
+  {
+    "scan_id": "30939868-197f-4ed0-a4a5-ff9a0702b4ed",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1-1_text_removed.dcm",
+    "status": "flagged",
+    "reason": "Text detected in pixel using OCR boxes",
+    "scan_type": "ocr-pixel",
+    "timestamp": "2025-06-12T10:59:21.414884"
+  },
+  {
+    "scan_id": "30939868-197f-4ed0-a4a5-ff9a0702b4ed",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1-1_text_removed.png",
+    "status": "clean",
+    "reason": null,
+    "scan_type": "txt",
+    "timestamp": "2025-06-12T10:59:21.450960"
+  },
+  {
+    "scan_id": "30939868-197f-4ed0-a4a5-ff9a0702b4ed",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1-2.dcm",
+    "status": "flagged",
+    "reason": "Text detected in pixel using OCR boxes",
+    "scan_type": "ocr-pixel",
+    "timestamp": "2025-06-12T10:59:23.014079"
+  },
+  {
+    "scan_id": "30939868-197f-4ed0-a4a5-ff9a0702b4ed",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1-2_text_removed.png",
+    "status": "clean",
+    "reason": null,
+    "scan_type": "txt",
+    "timestamp": "2025-06-12T10:59:23.076176"
+  },
+  {
+    "scan_id": "30939868-197f-4ed0-a4a5-ff9a0702b4ed",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1-3.dcm",
+    "status": "flagged",
+    "reason": "Text detected in pixel using OCR boxes",
+    "scan_type": "ocr-pixel",
+    "timestamp": "2025-06-12T10:59:24.351672"
+  },
+  {
+    "scan_id": "30939868-197f-4ed0-a4a5-ff9a0702b4ed",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1-3_text_removed.png",
+    "status": "clean",
+    "reason": null,
+    "scan_type": "txt",
+    "timestamp": "2025-06-12T10:59:24.417600"
+  },
+  {
+    "scan_id": "30939868-197f-4ed0-a4a5-ff9a0702b4ed",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1-4.dcm",
+    "status": "flagged",
+    "reason": "Text detected in pixel using OCR boxes",
+    "scan_type": "ocr-pixel",
+    "timestamp": "2025-06-12T10:59:25.623313"
+  },
+  {
+    "scan_id": "30939868-197f-4ed0-a4a5-ff9a0702b4ed",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1-4_text_removed.png",
+    "status": "clean",
+    "reason": null,
+    "scan_type": "txt",
+    "timestamp": "2025-06-12T10:59:25.692875"
+  },
+  {
+    "scan_id": "30939868-197f-4ed0-a4a5-ff9a0702b4ed",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1-5.dcm",
+    "status": "flagged",
+    "reason": "Text detected in pixel using OCR boxes",
+    "scan_type": "ocr-pixel",
+    "timestamp": "2025-06-12T10:59:27.187623"
+  },
+  {
+    "scan_id": "30939868-197f-4ed0-a4a5-ff9a0702b4ed",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1-5_text_removed.png",
+    "status": "clean",
+    "reason": null,
+    "scan_type": "txt",
+    "timestamp": "2025-06-12T10:59:27.272443"
+  },
+  {
+    "scan_id": "30939868-197f-4ed0-a4a5-ff9a0702b4ed",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\test.png",
+    "status": "clean",
+    "reason": null,
+    "scan_type": "txt",
+    "timestamp": "2025-06-12T10:59:27.273941"
+  },
+  {
+    "scan_id": "30939868-197f-4ed0-a4a5-ff9a0702b4ed",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1\\amal.pdf",
+    "status": "clean",
+    "reason": null,
+    "scan_type": "pdf",
+    "timestamp": "2025-06-12T10:59:27.356345"
+  },
+  {
+    "scan_id": "30939868-197f-4ed0-a4a5-ff9a0702b4ed",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1\\amal2.pdf",
+    "status": "clean",
+    "reason": null,
+    "scan_type": "pdf",
+    "timestamp": "2025-06-12T10:59:27.449002"
+  },
+  {
+    "scan_id": "30939868-197f-4ed0-a4a5-ff9a0702b4ed",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1\\de-identification of medical imaging data.pdf",
+    "status": "flagged",
+    "reason": "PII detected in PDF",
+    "scan_type": "pdf",
+    "timestamp": "2025-06-12T10:59:27.577294"
+  }
+]

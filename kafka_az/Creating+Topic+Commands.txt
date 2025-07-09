@@ -1,0 +1,61 @@
+sudo mkdir /opt/projects
+
+sudo chmod -R 777 /opt/
+
+chmod +x start_services.sh
+# repeate the same coomand for the rest file attached in this video(lesseon)
+
+cd /opt/kafka
+# Navigate to this folder /opt/kafka, where we will run the command to create a topic
+
+bin/kafka-topics.sh --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic Dev-topic-test
+
+bin/kafka-topics.sh --list --bootstrap-server localhost:9092
+
+bin/kafka-topics.sh --describe --topic Dev-topic-test --bootstrap-server localhost:9092
+
+bin/kafka-topics.sh --delete --topic Dev-topic-test1 --bootstrap-server localhost:9092
+
+
+
+# Creates a directory named projects in the /opt directory, which can be used for storing project-related files.
+
+sudo mkdir /opt/projects
+
+
+# Changes the permissions of the /opt/ directory and all its subdirectories/files (-R means recursively) to 777, 
+# granting read, write, and execute permissions to all users. Be cautious with this command as it makes the directory 
+# fully accessible to everyone.
+# Added this command here agian , in case youl face same error when trying to copy files from your side to /opt/projects
+
+sudo chmod -R 777 /opt/
+
+
+# Grants execute permissions to the start_services.sh script, allowing it to be run as a program. Repeat this command for any other attached files as needed.
+
+chmod +x start_services.sh
+
+
+# Changes the current working directory to /opt/kafka, where Kafka commands will be executed.
+
+cd /opt/kafka
+
+
+# Creates a new Kafka topic named Dev-topic-test with 1 partition and a replication factor of 1. The --bootstrap-server option specifies the Kafka server address.
+
+bin/kafka-topics.sh --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic Dev-topic-test
+
+
+# Lists all existing Kafka topics on the server.
+
+bin/kafka-topics.sh --list --bootstrap-server localhost:9092
+
+
+
+# Provides detailed information about the Dev-topic-test topic, such as partition details and leader information.
+
+bin/kafka-topics.sh --describe --topic Dev-topic-test --bootstrap-server localhost:9092
+
+#Deletes the topic named Dev-topic-test1 from the Kafka server.
+
+bin/kafka-topics.sh --delete --topic Dev-topic-test1 --bootstrap-server localhost:9092

@@ -1,0 +1,66 @@
+[
+  {
+    "scan_id": "2a52ebfc-939b-443e-8dd1-d4afa94838c2",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1-1.dcm",
+    "status": "clean",
+    "reason": null,
+    "scan_type": "txt",
+    "timestamp": "2025-05-30T16:00:13.281236"
+  },
+  {
+    "scan_id": "2a52ebfc-939b-443e-8dd1-d4afa94838c2",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1-2.dcm",
+    "status": "clean",
+    "reason": null,
+    "scan_type": "txt",
+    "timestamp": "2025-05-30T16:00:13.337914"
+  },
+  {
+    "scan_id": "2a52ebfc-939b-443e-8dd1-d4afa94838c2",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1-3.dcm",
+    "status": "clean",
+    "reason": null,
+    "scan_type": "txt",
+    "timestamp": "2025-05-30T16:00:13.391127"
+  },
+  {
+    "scan_id": "2a52ebfc-939b-443e-8dd1-d4afa94838c2",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1-4.dcm",
+    "status": "clean",
+    "reason": null,
+    "scan_type": "txt",
+    "timestamp": "2025-05-30T16:00:13.446215"
+  },
+  {
+    "scan_id": "2a52ebfc-939b-443e-8dd1-d4afa94838c2",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1-5.dcm",
+    "status": "clean",
+    "reason": null,
+    "scan_type": "txt",
+    "timestamp": "2025-05-30T16:00:13.504165"
+  },
+  {
+    "scan_id": "2a52ebfc-939b-443e-8dd1-d4afa94838c2",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1\\amal.pdf",
+    "status": "clean",
+    "reason": null,
+    "scan_type": "pdf",
+    "timestamp": "2025-05-30T16:00:13.585496"
+  },
+  {
+    "scan_id": "2a52ebfc-939b-443e-8dd1-d4afa94838c2",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1\\amal2.pdf",
+    "status": "clean",
+    "reason": null,
+    "scan_type": "pdf",
+    "timestamp": "2025-05-30T16:00:13.668558"
+  },
+  {
+    "scan_id": "2a52ebfc-939b-443e-8dd1-d4afa94838c2",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1\\de-identification of medical imaging data.pdf",
+    "status": "flagged",
+    "reason": "PII detected in PDF",
+    "scan_type": "pdf",
+    "timestamp": "2025-05-30T16:00:13.792869"
+  }
+]

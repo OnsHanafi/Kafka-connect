@@ -1,0 +1,82 @@
+[
+  {
+    "scan_id": "fd4d1fe4-fac6-4844-adac-f865fd74c21e",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1-1.dcm",
+    "status": "flagged",
+    "reason": "Text detected in pixel using OCR boxes",
+    "scan_type": "ocr-pixel",
+    "timestamp": "2025-06-11T10:54:33.730297"
+  },
+  {
+    "scan_id": "fd4d1fe4-fac6-4844-adac-f865fd74c21e",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1-1_cleaned.dcm",
+    "status": "flagged",
+    "reason": "Erreur OCR pixel: The length of the pixel data in the dataset (3766400 bytes) doesn't match the expected length (7532800 bytes). The dataset may be corrupted or there may be an issue with the pixel data handler.",
+    "scan_type": "ocr-pixel",
+    "timestamp": "2025-06-11T10:54:33.739578"
+  },
+  {
+    "scan_id": "fd4d1fe4-fac6-4844-adac-f865fd74c21e",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1-1_text_removed.dcm",
+    "status": "flagged",
+    "reason": "Text detected in pixel using OCR boxes",
+    "scan_type": "ocr-pixel",
+    "timestamp": "2025-06-11T10:54:36.165980"
+  },
+  {
+    "scan_id": "fd4d1fe4-fac6-4844-adac-f865fd74c21e",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1-2.dcm",
+    "status": "flagged",
+    "reason": "Text detected in pixel using OCR boxes",
+    "scan_type": "ocr-pixel",
+    "timestamp": "2025-06-11T10:54:37.923817"
+  },
+  {
+    "scan_id": "fd4d1fe4-fac6-4844-adac-f865fd74c21e",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1-3.dcm",
+    "status": "flagged",
+    "reason": "Text detected in pixel using OCR boxes",
+    "scan_type": "ocr-pixel",
+    "timestamp": "2025-06-11T10:54:39.602753"
+  },
+  {
+    "scan_id": "fd4d1fe4-fac6-4844-adac-f865fd74c21e",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1-4.dcm",
+    "status": "flagged",
+    "reason": "Text detected in pixel using OCR boxes",
+    "scan_type": "ocr-pixel",
+    "timestamp": "2025-06-11T10:54:41.243531"
+  },
+  {
+    "scan_id": "fd4d1fe4-fac6-4844-adac-f865fd74c21e",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1-5.dcm",
+    "status": "flagged",
+    "reason": "Text detected in pixel using OCR boxes",
+    "scan_type": "ocr-pixel",
+    "timestamp": "2025-06-11T10:54:43.044948"
+  },
+  {
+    "scan_id": "fd4d1fe4-fac6-4844-adac-f865fd74c21e",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1\\amal.pdf",
+    "status": "clean",
+    "reason": null,
+    "scan_type": "pdf",
+    "timestamp": "2025-06-11T10:54:43.149599"
+  },
+  {
+    "scan_id": "fd4d1fe4-fac6-4844-adac-f865fd74c21e",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1\\amal2.pdf",
+    "status": "clean",
+    "reason": null,
+    "scan_type": "pdf",
+    "timestamp": "2025-06-11T10:54:43.276271"
+  },
+  {
+    "scan_id": "fd4d1fe4-fac6-4844-adac-f865fd74c21e",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1\\de-identification of medical imaging data.pdf",
+    "status": "flagged",
+    "reason": "PII detected in PDF",
+    "scan_type": "pdf",
+    "timestamp": "2025-06-11T10:54:43.439404"
+  }
+]

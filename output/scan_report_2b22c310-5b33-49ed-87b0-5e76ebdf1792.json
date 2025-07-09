@@ -1,0 +1,66 @@
+[
+  {
+    "scan_id": "2b22c310-5b33-49ed-87b0-5e76ebdf1792",
+    "file_path": "C:\\\\Projects\\\\Data\\\\Aiko_samples\\1-1.dcm",
+    "status": "flagged",
+    "reason": "Erreur DICOM: sequence item 0: expected str instance, int found",
+    "scan_type": "dicom",
+    "timestamp": "2025-06-09T12:46:13.486394"
+  },
+  {
+    "scan_id": "2b22c310-5b33-49ed-87b0-5e76ebdf1792",
+    "file_path": "C:\\\\Projects\\\\Data\\\\Aiko_samples\\1-2.dcm",
+    "status": "flagged",
+    "reason": "Erreur DICOM: sequence item 0: expected str instance, int found",
+    "scan_type": "dicom",
+    "timestamp": "2025-06-09T12:46:13.486394"
+  },
+  {
+    "scan_id": "2b22c310-5b33-49ed-87b0-5e76ebdf1792",
+    "file_path": "C:\\\\Projects\\\\Data\\\\Aiko_samples\\1-3.dcm",
+    "status": "flagged",
+    "reason": "Erreur DICOM: sequence item 0: expected str instance, int found",
+    "scan_type": "dicom",
+    "timestamp": "2025-06-09T12:46:13.491655"
+  },
+  {
+    "scan_id": "2b22c310-5b33-49ed-87b0-5e76ebdf1792",
+    "file_path": "C:\\\\Projects\\\\Data\\\\Aiko_samples\\1-4.dcm",
+    "status": "flagged",
+    "reason": "Erreur DICOM: sequence item 0: expected str instance, int found",
+    "scan_type": "dicom",
+    "timestamp": "2025-06-09T12:46:13.491655"
+  },
+  {
+    "scan_id": "2b22c310-5b33-49ed-87b0-5e76ebdf1792",
+    "file_path": "C:\\\\Projects\\\\Data\\\\Aiko_samples\\1-5.dcm",
+    "status": "flagged",
+    "reason": "Erreur DICOM: sequence item 0: expected str instance, int found",
+    "scan_type": "dicom",
+    "timestamp": "2025-06-09T12:46:13.491655"
+  },
+  {
+    "scan_id": "2b22c310-5b33-49ed-87b0-5e76ebdf1792",
+    "file_path": "C:\\\\Projects\\\\Data\\\\Aiko_samples\\1\\amal.pdf",
+    "status": "clean",
+    "reason": null,
+    "scan_type": "pdf",
+    "timestamp": "2025-06-09T12:46:13.614521"
+  },
+  {
+    "scan_id": "2b22c310-5b33-49ed-87b0-5e76ebdf1792",
+    "file_path": "C:\\\\Projects\\\\Data\\\\Aiko_samples\\1\\amal2.pdf",
+    "status": "clean",
+    "reason": null,
+    "scan_type": "pdf",
+    "timestamp": "2025-06-09T12:46:13.711585"
+  },
+  {
+    "scan_id": "2b22c310-5b33-49ed-87b0-5e76ebdf1792",
+    "file_path": "C:\\\\Projects\\\\Data\\\\Aiko_samples\\1\\de-identification of medical imaging data.pdf",
+    "status": "flagged",
+    "reason": "PII detected in PDF",
+    "scan_type": "pdf",
+    "timestamp": "2025-06-09T12:46:13.881476"
+  }
+]

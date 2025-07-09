@@ -1,0 +1,36 @@
+#[Unit]
+# kafka.service is an optional service to the following  reasons:
+# 1- System Management Tools: In some environments, system management tools like Docker, Kubernetes, or Ansible are used to deploy and manage Kafka and its dependencies. These tools may have their 
+#    own mechanisms for starting and stopping services, making the creation of a systemd unit file unnecessary
+# 2- Manual Management: If you prefer to manually start and stop Kafka using scripts or commands, you might not need a systemd unit file. You can start Kafka by running the appropriate script 
+#    (kafka-server-start.sh) directly from the command line.
+# 3- Customization: The provided kafka.service file is a basic template, and you may need to customize it based on your specific setup. If you have custom requirements or configurations, 
+#    you might choose to create your own systemd unit file tailored to your needs.
+# 4- Alternative Service Managers: Some Linux distributions or environments may use alternative service managers or init systems instead of systemd. In such cases, you would use the appropriate
+#    mechanism for managing Kafka as a service.
+# 5- No Dependency on ZooKeeper: Starting from Apache Kafka version 2.8.0, Kafka brokers no longer require ZooKeeper for metadata management. If you're using Kafka 2.8.0 or later and don't
+#    depend on ZooKeeper, you might not need to create a systemd unit file referencing ZooKeeper.
+####################################################################################################################################################################################################
+
+
+#Description: Provides a brief description of the service
+#Documentation: Specifies a URL for documentation related to the service.
+#Requires: Indicates that this service requires another service (zookeeper.service) to be started before starting Kafka. Kafka depends on ZooKeeper for cluster coordination.
+[Unit]
+Description=Apache Kafka Service
+Documentation=http://kafka.apache.org/documentation.html
+Requires=zookeeper.service
+#Type: Defines the process type. In this case, simple indicates that the service is a basic, non-forking service.
+#Environment: Sets environment variables for the service. Here, it specifies the JAVA_HOME environment variable to ensure that Kafka can find the Java runtime environment.
+#ExecStart: Specifies the command to start the service. It executes the Kafka startup script (kafka-server-start.sh) with the Kafka server configuration file (server.properties).
+#ExecStop: Specifies the command to stop the service. It executes the Kafka shutdown script (kafka-server-stop.sh).
+[Service]
+Type=simple
+#User=ubuntu
+#Group=ubuntu
+Environment="JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64"
+ExecStart=/opt/kafka/bin/kafka-server-start.sh /opt/kafka/config/server.properties
+ExecStop=/opt/kafka/bin/kafka-server-stop.sh
+#WantedBy: Specifies the target that should be reached in order to start the service. multi-user.target indicates that the service should be started when the system is in multi-user mode.
+[Install]
+WantedBy=multi-user.target

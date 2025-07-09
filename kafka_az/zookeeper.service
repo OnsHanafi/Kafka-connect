@@ -1,0 +1,32 @@
+[Unit]
+#/etc/systemd/system/zookeeper.service
+# Zookeeper.service is an optional service to the following  reasons:
+# 1- System Configuration: Some environments may already have a preferred system for managing services, such as custom init scripts or orchestration tools like Kubernetes or Docker Compose. 
+#    In such cases, using systemd might not be necessary or preferred.
+# 2- Simplicity: If your setup is straightforward and you prefer manual control over starting and stopping ZooKeeper, using the direct invocation method (/opt/kafka/bin/zookeeper-server-start.sh)
+#    might be simpler and more flexible for your needs.
+# 3- Development Environments: In development or testing environments, you might not need the overhead of configuring systemd services. It might be quicker and easier to start ZooKeeper manually
+#     as needed.
+####################################################################################################################################################################################################
+#/etc/systemd/system/zookeeper.service
+#Description: Describes the service (Apache Zookeeper server) for human readability.
+#Documentation: Provides a link to further documentation for the service
+#After: Specifies that the service should start after the network is available. This ensures that ZooKeeper doesn't start until the network interfaces are up and running.
+Description=Apache Zookeeper service
+Documentation=http://zookeeper.apache.org
+Requires=network.target remote-fs.target
+After=network.target remote-fs.target
+
+#After: Specifies that the service should start after the network is available. This ensures that ZooKeeper doesn't start until the network interfaces are up and running.
+#ExecStart: Specifies the command to start the service. In this case, it executes the ZooKeeper startup script (/opt/kafka/bin/zookeeper-server-start.sh) with the appropriate configuration file.
+#ExecStop: Specifies the command to stop the service. It executes the ZooKeeper shutdown script (/opt/kafka/bin/zookeeper-server-stop.sh).
+#Restart: Defines the conditions under which the service should be restarted. on-abnormal means the service will be restarted when it exits with a non-zero exit status.
+[Service]
+Type=simple
+ExecStart=/opt/kafka/bin/zookeeper-server-start.sh /opt/kafka/config/zookeeper.properties
+ExecStop=/opt/kafka/bin/zookeeper-server-stop.sh
+Restart=on-abnormal
+
+#WantedBy: Specifies the target that should be reached in order to start the service. multi-user.target indicates that the service should be started when the system is in multi-user mode.
+[Install]
+WantedBy=multi-user.target

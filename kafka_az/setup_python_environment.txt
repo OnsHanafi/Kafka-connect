@@ -1,0 +1,13 @@
+# Check Python 3 version installed
+sudo python3 --version
+
+# Update and upgrade the system package list
+sudo apt update
+sudo apt upgrade -y  
+
+# Install Python3's package manager (pip)
+sudo apt install python3-pip 
+
+# Install required Python packages using pip3
+sudo pip3 install Flask
+sudo pip3 install pandas

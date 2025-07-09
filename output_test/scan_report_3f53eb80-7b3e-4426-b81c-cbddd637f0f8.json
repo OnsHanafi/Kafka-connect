@@ -1,0 +1,50 @@
+[
+  {
+    "scan_id": "3f53eb80-7b3e-4426-b81c-cbddd637f0f8",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1-1.dcm",
+    "status": "clean",
+    "reason": null,
+    "scan_type": "txt",
+    "timestamp": "2025-05-30T15:57:18.900393"
+  },
+  {
+    "scan_id": "3f53eb80-7b3e-4426-b81c-cbddd637f0f8",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1-2.dcm",
+    "status": "clean",
+    "reason": null,
+    "scan_type": "txt",
+    "timestamp": "2025-05-30T15:57:18.957149"
+  },
+  {
+    "scan_id": "3f53eb80-7b3e-4426-b81c-cbddd637f0f8",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1-3.dcm",
+    "status": "clean",
+    "reason": null,
+    "scan_type": "txt",
+    "timestamp": "2025-05-30T15:57:19.010908"
+  },
+  {
+    "scan_id": "3f53eb80-7b3e-4426-b81c-cbddd637f0f8",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1-4.dcm",
+    "status": "clean",
+    "reason": null,
+    "scan_type": "txt",
+    "timestamp": "2025-05-30T15:57:19.067812"
+  },
+  {
+    "scan_id": "3f53eb80-7b3e-4426-b81c-cbddd637f0f8",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1-5.dcm",
+    "status": "clean",
+    "reason": null,
+    "scan_type": "txt",
+    "timestamp": "2025-05-30T15:57:19.122611"
+  },
+  {
+    "scan_id": "3f53eb80-7b3e-4426-b81c-cbddd637f0f8",
+    "file_path": "C:\\Projects\\Data\\Aiko_samples\\1\\amal.pdf",
+    "status": "clean",
+    "reason": null,
+    "scan_type": "pdf",
+    "timestamp": "2025-05-30T15:57:19.211885"
+  }
+]

@@ -1,0 +1,10 @@
+
+curl http://127.0.0.1:5000/api/data
+
+Description:
+This curl command sends an HTTP GET request to the local server (127.0.0.1) on port 5000 to access the endpoint /api/data. 
+It’s often used to test if a web service (such as a Flask API) running on your machine is working correctly and returning 
+the expected data.
+
+
+

@@ -1,0 +1,23 @@
+#Starts the Zookeeper service using systemctl.
+sudo systemctl start zookeeper
+
+#Displays the current status and information about the Zookeeper service, such as whether it's running or stopped.
+sudo systemctl status zookeeper
+
+#Starts the Kafka service using systemctl.
+sudo systemctl start kafka
+
+#Displays the current status and information about the Kafka service.
+sudo systemctl status kafka
+
+#Stops the Zookeeper service.
+sudo systemctl stop zookeeper
+
+
+#Stops the Kafka service.
+sudo systemctl stop kafka
+
+# Note: You should start the Zookeeper service first, followed by the Kafka service.
+# Kafka relies on Zookeeper for managing its distributed coordination, configuration, and synchronization. 
+# Zookeeper acts as a centralized service that Kafka uses to keep track of brokers, topics, and partition leaders. 
+# Therefore, Zookeeper must be running before starting Kafka to ensure proper functionality and communication.
